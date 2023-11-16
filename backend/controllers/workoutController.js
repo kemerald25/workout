@@ -40,5 +40,7 @@ const getWorkout = async (req, res) => {
 // update a workout
 
 module.exports = {
+    getWorkouts,
+    getWorkout,
     createWorkout
 }
