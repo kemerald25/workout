@@ -68,4 +68,4 @@ const WorkoutForm = () => {
     )
 }
 
-export default WorkoutForm
+export default WorkoutForm;
