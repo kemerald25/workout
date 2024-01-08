@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 // pages & component 
 import Home from './pages/Home'
 import Navbar from './components/navbar'
+import WorkoutForm from './components/workoutForm';
 
 function App() {
   return (
@@ -16,6 +17,10 @@ function App() {
             <Route 
               path="/"
               element={<Home />}
+            />
+            <Route 
+              path="/workout-form"
+              element={<WorkoutForm />}
             />
           </Routes>
         </div>
