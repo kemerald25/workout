@@ -35,8 +35,10 @@ header a {
 /* homepage */
 .home {
   display: grid;
-  grid-template-columns: 3fr 1fr;
-  gap: 100px;
+  /* grid-template-columns: 3fr 1fr;
+  gap: 100px; */
+  max-width: 1000px;
+  margin: 0 auto;
 }
 .workout-details {
   background: #fff;
@@ -97,4 +99,8 @@ div.error {
   color: var(--error);
   border-radius: 4px;
   margin: 20px 0;
+}
+.create{
+  max-width: 600px;
+  margin: 0 auto;
 }
