@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import WorkoutForm from './workoutForm'
+// import WorkoutForm from './workoutForm'
 
 const Navbar = () => {
 
